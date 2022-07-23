@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace bonavadeur\core\form;
 
-use app\core\Model;
+use bonavadeur\core\Model;
 
 class Field {
     public const TYPE_TEXT = 'text';

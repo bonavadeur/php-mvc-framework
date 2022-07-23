@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace bonavadeur\core\db;
 
-use app\core\Model;
-use app\core\Application;
+use bonavadeur\core\Model;
+use bonavadeur\core\Application;
 
 abstract class DbModel extends Model {
     abstract public function tableName() : string;

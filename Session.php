@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
 class Session {
     protected const FLASH_KEY = 'flash_messages';

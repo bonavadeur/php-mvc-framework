@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exception;
+namespace bonavadeur\core\exception;
 
 class NotFoundException extends \Exception {
     protected $message = "Page Not Found";

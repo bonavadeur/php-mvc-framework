@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
-use app\core\db\DbModel;
+use bonavadeur\core\db\DbModel;
 
 abstract class UserModel extends DbModel {
     abstract public function getDisplayName() : string;

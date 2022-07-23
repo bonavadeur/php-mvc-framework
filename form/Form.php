@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\form;
+namespace bonavadeur\core\form;
 
-use app\core\Model;
-use app\core\form\Field;
+use bonavadeur\core\Model;
+use bonavadeur\core\form\Field;
 
 class Form {
     public static function begin($action, $method) {

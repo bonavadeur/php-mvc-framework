@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
-use \app\core\Controller;
-use \app\core\db\Database;
-use \app\core\db\DbModel;
-use \app\core\Session;
+use \bonavadeur\core\Controller;
+use \bonavadeur\core\db\Database;
+use \bonavadeur\core\db\DbModel;
+use \bonavadeur\core\Session;
 use \app\models\User;
 
 class Application {

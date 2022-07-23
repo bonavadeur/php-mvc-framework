@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
-use app\core\exception\ForbiddenException;
-use app\core\exception\NotFoundException;
+use bonavadeur\core\exception\ForbiddenException;
+use bonavadeur\core\exception\NotFoundException;
 
 class Router {
     public Request $request;

@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
-use app\core\middlewares\BaseMiddleware;
+use bonavadeur\core\middlewares\BaseMiddleware;
 
 class Controller {
     public string $layout = 'main';

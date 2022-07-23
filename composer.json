@@ -11,5 +11,10 @@
             "email": "daodaihiep22ussr@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "bonavadeur\\core": "."
+        }
+    }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace bonavadeur\core\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use bonavadeur\core\Application;
+use bonavadeur\core\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware {
     public array $actions = [];

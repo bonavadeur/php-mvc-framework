@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace bonavadeur\core\db;
 
-use app\core\Application;
+use bonavadeur\core\Application;
 
 class Database {
     public \PDO $pdo;

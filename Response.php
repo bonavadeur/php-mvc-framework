@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace bonavadeur\core;
 
 class Response {
     public function setStatusCode(int $code) {
