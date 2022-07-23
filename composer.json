@@ -1,0 +1,15 @@
+{
+    "name": "bonavadeur/core",
+    "autoload": {
+        "psr-4": {
+            "Bonavadeur\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daohiep22",
+            "email": "daodaihiep22ussr@gmail.com"
+        }
+    ],
+    "require": {}
+}
